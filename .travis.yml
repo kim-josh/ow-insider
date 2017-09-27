@@ -1,2 +1,9 @@
 languages: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: bXBbivshDekfErxbUliP7hnY9teJrUJWYcqQ5aBlnIxon8xvhzGUxFzOnp4ia9OXVb1VxqGFa+VcPbbXp78tn+tAZZMO6UTBNo+nZjOYiO1nSd27eWcjH+vsG7IxrcMwbvBuDqF3zR9+dIkisOFbaCKibi7OCbuh+CK3zLZCOJi2+CdqxH6+ylQHaxe7+Tf+Z/CT3kLlLAHgbBJPeOtp21HPSaH2f9246XfCaZEmTEEMNDE0RYNGJeuWRuPK2Z7MUhljKe5cnAMqQcWnrF/khSG67eq39ulEvv+AR+Z4v3YsJsNuyUqLx+DESOsyw6x2AdnywGga48HuJ+eg/EWwLq9TPQO1HaCF8WOsc631EVt1bguv1IK2BMiDCMRDg4d5smktay5CrTeSMsHbPrl6qbVJGiZXLVxfz7cS+DIugWMW6cXN34xqiULRcfPrsZ6yF7FzjTi5dvZF0iMK9xqXyyi6pTQlMO/HIv/oDD39HJRD5+qFRpScdWh+BSiho0j9Qjr1X3FO5ssoRRo51ZcDrgkcCfivsFJjrGWL+wBdwOK+URR3T1I+MCEg68/cxNyh9O3c2rqUUehICbtly1ca2ksPDoHOcqnP8FkW4XuAIOxUIBAblJL5cClhGpEI8uUbUDzgWziv1ari3Rfw4BnU8njcloki7R+zcXu7NlqpG58=
+  app: secret-castle-94392
+  on:
+    repo: kim-josh/ow-insider
