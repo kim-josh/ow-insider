@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Overwatch Insider | Heroes</title>
+
+    <meta name="description" content="Overwatch Insider - Hero selection for guides and strategies">
+    <meta name="keywords" content="game, gaming, overwatch, ow, heroes, champs, guides, strategies, tips">
+    <meta name="author" content="Josh Kim">
+
+    <link rel="icon" type="image/png" href="/images/ow-logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- START: Styles -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,700" rel="stylesheet" type="text/css">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/assets/bower_components/bootstrap/css/bootstrap.min.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="/assets/bower_components/font-awesome/css/font-awesome.min.css">
+
+    <!-- IonIcons -->
+    <link rel="stylesheet" href="/assets/bower_components/ionicons/css/ionicons.min.css">
+
+    <!-- Flickity -->
+    <link rel="stylesheet" href="/assets/bower_components/flickity/dist/flickity.min.css">
+
+    <!-- Photoswipe -->
+    <link rel="stylesheet" type="text/css" href="/assets/bower_components/photoswipe/dist/photoswipe.css">
+    <link rel="stylesheet" type="text/css" href="/assets/bower_components/photoswipe/dist/default-skin/default-skin.css">
+
+    <!-- Seiyria Bootstrap Slider -->
+    <link rel="stylesheet" href="/assets/bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.min.css">
+
+    <!-- Summernote -->
+    <link rel="stylesheet" href="/assets/bower_components/summernote/dist/summernote.css">
+
+    <!-- Prism -->
+    <link rel="stylesheet" type="text/css" href="/assets/bower_components/prism/themes/prism-tomorrow.css">
+
+    <!-- ToolTipster -->
+    <link rel="stylesheet" type="text/css" href="/assets/tooltipster/dist/css/tooltipster.bundle.min.css">
+
+    <!-- ToolTipster Theme -->
+    <link rel="stylesheet" type="text/css" href="/assets/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css">    
+
+    <!-- GoodGames -->
+    <link rel="stylesheet" href="/css/goodgames.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <!-- END: Styles -->
+</head>
+
+<body>
+    <header class="nk-header nk-header-opaque">
+        <!-- START: Top Contacts -->
+        <div class="nk-contacts-top">
+            <div class="container">
+                <div class="nk-contacts-left">
+                    <ul class="nk-social-links">
+                        <li>
+                            <a class="nk-social-twitch" href="https://www.twitch.tv/directory/game/Overwatch" target="_blank">
+                                <span class="fa fa-twitch"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nk-social-facebook" href="https://www.facebook.com/PlayOverwatch/" target="_blank">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nk-social-instagram" href="https://www.instagram.com/playoverwatch/" target="_blank">
+                                <span class="fa fa-instagram"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nk-social-twitter" href="https://twitter.com/PlayOverwatch" target="_blank">
+                                <span class="fa fa-twitter"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nk-social-reddit" href="https://www.reddit.com/r/Overwatch/" target="_blank">
+                                <span class="fa fa-reddit"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nk-social-youtube" href="https://www.youtube.com/channel/UClOf1XXinvZsy4wKPAkro2A">
+                                <span class="fa fa-youtube-play"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nk-contacts-right">
+                    <ul class="nk-contacts-icons">
+                        <!-- Will implement this feature in the future 
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#modalSearch">
+                                <span class="fa fa-search"></span>
+                            </a>
+                        </li>
+                        -->
+                        <li>
+                            <a href="#" id="demoLogin" data-toggle="modal" data-target="#modalLoginSignup">
+                                <span class="fa fa-user fa-lg"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <!-- END: Top Contacts -->
+
+
+        <!--
+        START: Navbar
+
+        Additional Classes:
+            .nk-navbar-sticky
+            .nk-navbar-transparent
+            .nk-navbar-autohide
+    -->
+        <!-- NAVBAR - Hero guides, Map Guides, Forum, News -->
+        <nav class="nk-navbar nk-navbar-top nk-navbar-transparent">
+                <div class="container">
+                    <div class="nk-nav-table">
+    
+                        <a href="/" class="nk-nav-logo">
+                                <img src="/images/ow-logo.png" alt="Overwatch Insider logo" width="125" height="125">   
+                        </a>
+                        <ul class="nk-nav nk-nav-center" data-nav-mobile="#nk-nav-mobile">
+    
+                            <li class="nk-li">
+                                <a href="/hero">Hero Guides</a>
+                            </li>    
+                            <li class="nk-li">
+                                <a href="/map">Map Guides</a>
+                            </li>
+                <!-- Will implement in the near future
+                                
+                            <li class= "nk-drop-item">
+                                <a href="/forum/forum.html">
+                    Forum
+                    
+                </a>
+                            </li>
+                -->
+                <!-- Will add in the near future once Overwatch comes out with an official API 
+                            <li class=" nk-drop-item">
+                                <a href="/news/news.html">
+                    News
+                    
+                </a>
+                            </li>
+                -->
+                        </ul>       
+                    </div>
+                </div>
+        </nav>
+            <!-- END: Navbar -->
+    
+    </header>
+
+
+
+    <!--
+    START: Navbar Mobile
+
+    Additional Classes:
+        .nk-navbar-left-side
+        .nk-navbar-right-side
+        .nk-navbar-lg
+        .nk-navbar-overlay-content
+-->
+    <div id="nk-nav-mobile" class="nk-navbar nk-navbar-side nk-navbar-right-side nk-navbar-overlay-content hidden-lg-up">
+        <div class="nano">
+            <div class="nano-content">
+                <a href="/index.html" class="nk-nav-logo">
+                    <img src="/images/ow-logo.png" alt="Overwatch Insider Logo" width="120">
+                </a>
+                <div class="nk-navbar-mobile-content">
+                    <ul class="nk-nav">
+                        <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Navbar Mobile -->
+
+
+
+    <div class="nk-main">
+
+        <!-- START: Breadcrumbs -->
+        <div class="nk-gap-1"></div>
+        <div class="container">
+            <ul class="nk-breadcrumbs">
+                <li><a href="/">Home</a></li>
+                <li>
+                    <span class="fa fa-angle-right"></span>
+                </li>
+                <li>
+                    <span>Hero Guides</span>
+                </li>
+            </ul>
+        </div>
+        <div class="nk-gap-1"></div>
+        <!-- END: Breadcrumbs -->
+
+        <div class="container-fluid"></div>
+            <div class="container">
+                <div class="row vertical-gap">
+                    <div class="col-lg-12">
+                        <!-- START: HERO SELECTION -->
+                        <!-- WILL FULLY IMPLEMENT AFTER I GRADUATE. Each hero will have its own landing page. -->
+                        <h2 class="nk-decorated-h-2 h3">
+                            <span>
+                                <span class="text-main-1">Hero</span> Selection</span>
+                        </h2>
+                        <div class="nk-gap"></div>
+                        <div class="heroes">
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Ana" href="#">
+                                        <img src="/heroes/avatar/ana.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Bastion" href="#">
+                                        <img src="/heroes/avatar/bastion.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="D.Va" href="#">
+                                        <img src="/heroes/avatar/dva.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Doomfist" href="#">
+                                        <img src="/heroes/avatar/doomfist.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Genji" href="#">
+                                        <img src="/heroes/avatar/genji.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Hanzo" href="#">
+                                        <img src="/heroes/avatar/hanzo.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Junkrat" href="#">
+                                        <img src="/heroes/avatar/junkrat.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Lucio" href="#">
+                                        <img src="/heroes/avatar/lucio.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="McCree" href="#">
+                                        <img src="/heroes/avatar/mccree.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Mei" href="#">
+                                        <img src="/heroes/avatar/mei.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Mercy" href="#">
+                                        <img src="/heroes/avatar/mercy.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Orisa" href="#">
+                                        <img src="/heroes/avatar/orisa.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Pharah" href="#">
+                                        <img src="/heroes/avatar/pharah.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Reaper" href="#">
+                                        <img src="/heroes/avatar/reaper.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Reinhardt" href="#">
+                                        <img src="/heroes/avatar/reinhardt.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Roadhog" href="#">
+                                        <img src="/heroes/avatar/roadhog.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Soldier: 76" href="#">
+                                        <img src="/heroes/avatar/soldier-76.png">
+                                    </a>
+                                </span>
+                            </div>                            
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Sombra" href="#">
+                                        <img src="/heroes/avatar/sombra.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Symmetra" href="#">
+                                        <img src="/heroes/avatar/symmetra.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Torbjörn" href="#">
+                                        <img src="/heroes/avatar/torbjorn.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Tracer" href="#">
+                                        <img src="/heroes/avatar/tracer.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Widowmaker" href="#">
+                                        <img src="/heroes/avatar/widowmaker.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Winston" href="#">
+                                        <img src="/heroes/avatar/winston.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Zarya" href="#">
+                                        <img src="/heroes/avatar/zarya.png">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="tooltip_templates">
+                                <span class="tooltip_content">
+                                    <a class="hero nk-gallery-item-box hero-tooltip" data-name="Zenyatta" href="#">
+                                        <img src="/heroes/avatar/zenyatta.png">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    
+                        <!-- END: HERO SELECTION -->
+            <!-- START: Latest Guides (WILL FULLY IMPLEMENT AFTER I GRADUATE) -->
+            <!-- As an alternative, I am using youtube videos -->
+                        <div class="nk-gap-2"></div>
+                        <h3 class="nk-decorated-h-2">
+                            <span><span class="text-main-1">Recent</span> Guides</span>
+                        </h3>
+                        <div class="nk-gap"></div>
+                        <div class="row vertical-gap">
+                            <div class="col-md-6">
+                                <h4>"It's a perfect day for some mayhem"</h4>
+                                <div class="ow-video" data-video="https://www.youtube.com/watch?v=Xm9PDQc1GIo">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/Xm9PDQc1GIo" 
+                                    frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h4>"The truth will be revealed"</h4>
+                                <div class="ow-video" data-video="https://www.youtube.com/watch?v=KNtKdOLxilU">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/KNtKdOLxilU"
+                                    frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-2"></div>
+
+        <!-- START: Footer -->
+        <footer class="nk-footer">
+        <!-- Will add CONTACT US if the site eventually gets big    
+            <div class="container">
+                <div class="nk-gap-3"></div>
+                <div class="row vertical-gap">
+                    <div class="col-md-12">
+                        <div class="nk-widget">
+                            <h4 class="nk-widget-title">
+                                <span class="text-main-1">Contact</span>Us</h4>
+                            <div class="nk-widget-content">
+                                <form action="php/contact.php" class="nk-form nk-form-ajax">
+                                    <div class="row vertical-gap sm-gap">
+                                        <div class="col-md-6">
+                                            <input type="email" class="form-control required" name="email" placeholder="Email *">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control required" name="name" placeholder="Name *">
+                                        </div>
+                                    </div>
+                                    <div class="nk-gap"></div>
+                                    <textarea class="form-control required" name="message" rows="5" placeholder="Message *"></textarea>
+                                    <div class="nk-gap-1"></div>
+                                    <button class="nk-btn nk-btn-rounded nk-btn-color-white">
+                                        <span>Send</span>
+                                        <span class="icon"><i class="ion-paper-airplane"></i></span>
+                                    </button>
+                                    <div class="nk-form-response-success"></div>
+                                    <div class="nk-form-response-error"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="nk-gap-3"></div>
+            </div>
+        -->  
+            <div class="nk-copyright">
+                <div class="container">
+                    <div class="nk-copyright-left">
+                        Copyright &copy; 2017 
+                    </div>
+                    <div class="nk-copyright-right">
+                        <ul class="nk-social-links">
+                            <li>
+                                <a class="nk-social-twitch" href="https://www.twitch.tv/directory/game/Overwatch" target="_blank">
+                                    <span class="fa fa-twitch"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nk-social-facebook" href="https://www.facebook.com/PlayOverwatch/" target="_blank">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nk-social-instagram" href="https://www.instagram.com/playoverwatch/" target="_blank">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nk-social-twitter" href="https://twitter.com/PlayOverwatch" target="_blank">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nk-social-reddit" href="https://www.reddit.com/r/Overwatch/" target="_blank">
+                                    <span class="fa fa-reddit"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nk-social-youtube" href="https://www.youtube.com/channel/UClOf1XXinvZsy4wKPAkro2A">
+                                    <span class="fa fa-youtube-play"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END: Footer -->
+    </div>
+
+    <!-- START: Page Background -->
+
+    <img class="nk-page-background-top" src="/images/bg-top-3.png" alt="Background image">
+    <img class="nk-page-background-bottom" src="/images/bg-bottom.png" alt="Background image">
+
+    <!-- END: Page Background -->
+    
+    <!-- START: Search Modal -->
+    <!-- WILL IMPLEMENT AFTER I GRADUATE
+    <div class="nk-modal modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="ion-android-close"></span>
+                    </button>
+
+                    <h4 class="mb-0">Search</h4>
+
+                    <div class="nk-gap-1"></div>
+                    <form action="#" class="nk-form nk-form-style-1">
+                        <input type="text" value="" name="search" class="form-control" placeholder="Type something and press Enter">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <!-- END: Search Modal -->
+
+
+
+    <!-- START: Login Modal -->
+    <div class="nk-modal modal fade" id="modalLoginSignup" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content" id=login-modal-content>
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="ion-android-close"></span>
+                    </button>
+
+                    <h4 class="mb-0">
+                        <span class="text-main-1">Sign</span> In</h4>
+
+                    <div class="nk-gap-1"></div>
+                    <form action="/auth/login" method="post" id="login-form" class="nk-form text-white" role="form">
+                        <div class="row vertical-gap">
+                            <div class="col-md-12">
+                                Use username and password:
+                                
+                                <div class="nk-gap"></div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
+                                        <input type="text" id="login-username" name="username" class="form-control input-lg" placeholder="Username" data-parsley-required="true">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-unlock-alt" aria-hidden="true"></i></div>
+                                        <input type="password" id="login-password" name="password" class="form-control input-lg" placeholder="Password" required data-parsley-length="[6,14]" data-parsley-trigger="keyup">
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div class="nk-gap-1"></div>
+                        <div class="row vertical-gap">
+                            <div class="col-md-6">
+                                <button type="submit" id="loginButton" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block">Sign In</button>
+                            </div>
+                            <div class="col-md-6">
+                            <!-- Will possibly implement in the near future
+                                <div class="mnt-5">
+                                    <small><a href="#">Forgot your password?</a></small>
+                                </div>
+                            -->
+                                <p>
+                                    <small><a id="signupModal" href="javacsript:void(0)">Not a member? Sign up</a></small>
+                                </p>
+                            </div>
+                            <div class="alert alert-danger alert-dismissible d-none" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"></span></button>
+                                <strong>Incorrect email or password. Try again!</strong>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- START: Registration Modal -->
+            <div class="modal-content" id="signup-modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="ion-android-close"></span>
+                    </button>
+                    <h4 class="mb-0">
+                        <span class="text-main-1">Signup</span> Now
+                    </h4>
+                    <div class="nk-gap-1"></div>
+                    <form action="/users/signup" method="post" id="signup-form" class="nk-form text-white" role="form">
+                        <div class="row vertical-gap">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></div>
+                                        <label id="labelEmail" for="email">Email</label>
+                                        <input name="email" id="email" type="email" class="form-control input-lg"
+                                            placeholder="Enter Email" data-parsley-required data-parsley-type="email" data-parsley-error-message="Sorry, that email is already taken." data-parsley-trigger="keyup">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-user fa-fw"></i></div>
+                                        <label id="labelUsername"for="username">Username</label>
+                                        <input name="username" id="username" type="text" class="form-control input-lg"
+                                            placeholder="Enter Username" data-parsley-required data-parsley-length="[3,14]" data-parsley-error-message="Sorry, that username is already taken." data-parsley-trigger="keyup">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-unlock-alt fa-fw" aria-hidden="true"></i></div>
+                                        <label id="labelPassword" for="password">Password</label>
+                                        <input name="password" id="password" type="password" class="form-control input-lg"
+                                            placeholder="Enter Password" data-parsley-required data-parsley-length="[6, 16]" data-parsley-trigger="keyup">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-unlock-alt fa-fw"></i></div>
+                                        <label id="labelConfirmPassword" for="confirmPassword">Confirm Password</label>
+                                        <input name="confirmPassword" id="confirmPassword" type="password" class="form-control input-lg"
+                                            placeholder="Retype Password" data-parsley-required data-parsley-equalto="#password" data-parsley-trigger="keyup">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nk-gap"></div>
+                        <div class="row vertical-gap">
+                            <div class="col-md-6">
+                                <button type="submit" id="signupButton" class="nk-btn nk-btn-rounded nk-btn-color-white nk-btn-block">Create Account!</button>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    <small><a id="loginModal" href="javascript:void(0)">Already a member? Login Here!</a></small>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Login Modal -->
+
+
+    <!-- START: Scripts -->
+
+    <!-- GSAP -->
+    <script src="/assets/bower_components/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="/assets/bower_components/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="/assets/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Popper -->
+    <script src="/js/vendor/popper.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/assets/bower_components/tether/dist/js/tether.min.js"></script>
+    <script src="/assets/bower_components/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Sticky Kit -->
+    <script src="/assets/bower_components/sticky-kit/dist/sticky-kit.min.js"></script>
+
+    <!-- Jarallax -->
+    <script src="/assets/bower_components/jarallax/dist/jarallax.min.js"></script>
+    <script src="/assets/bower_components/jarallax/dist/jarallax-video.min.js"></script>
+
+    <!-- imagesLoaded -->
+    <script src="/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Flickity -->
+    <script src="/assets/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
+
+    <!-- Photoswipe -->
+    <script src="/assets/bower_components/photoswipe/dist/photoswipe.min.js"></script>
+    <script src="/assets/bower_components/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+
+    <!-- Jquery Form -->
+    <script src="/assets/bower_components/jquery-form/dist/jquery.form.min.js"></script>
+
+    <!-- Jquery Validation -->
+    <script src="/assets/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <!-- Jquery Countdown + Moment -->
+    <script src="/assets/bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+    <script src="/assets/bower_components/moment/min/moment.min.js"></script>
+    <script src="/assets/bower_components/moment-timezone/builds/moment-timezone-with-data.js"></script>
+
+    <!-- Hammer.js -->
+    <script src="/assets/bower_components/hammer.js/hammer.min.js"></script>
+
+    <!-- NanoSroller -->
+    <script src="/assets/bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
+
+    <!-- SoundManager2 -->
+    <script src="/assets/bower_components/SoundManager2/script/soundmanager2-nodebug-jsmin.js"></script>
+
+    <!-- Seiyria Bootstrap Slider -->
+    <script src="/assets/bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.min.js"></script>
+
+    <!-- Summernote -->
+    <script src="/assets/bower_components/summernote/dist/summernote.min.js"></script>
+
+    <!-- Prism -->
+    <script src="/assets/bower_components/prism/prism.js"></script>
+
+    <!-- ToolTipster -->
+    <script type="text/javascript" src="/assets/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+    
+    <!-- GoodGames -->
+    <script src="/js/goodgames.min.js"></script>
+    <script src="/js/goodgames-init.js"></script>
+
+    <!-- Custom JS --> 
+    <script src="/js/custom.js"></script>
+    <script src="/profile/js/custom.js"></script> 
+    <!-- END: Scripts -->
+    
+</body>
+</html>
+

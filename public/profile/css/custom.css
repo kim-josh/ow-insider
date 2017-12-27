@@ -1,0 +1,201 @@
+body{
+	height: 100vh;
+	color: #050401;
+}
+
+.material-icons{
+	font-size: 30px;
+}
+
+.title-font{
+	font-family: 'Fjalla One', sans-serif
+}
+
+.normal-font{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.btn-variant {
+	border: none;
+	border-radius: 300px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background-color: #dd163b;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.btn-variant:hover {
+	cursor: pointer;
+}
+
+.button {
+	height: 50px;
+	background: none;
+	color: black;
+}
+
+.button:active {
+	background: gray;
+	color: white;
+}
+
+.navbar {
+	border: 1px solid white;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar > .container-fluid{
+	background-color: white;
+}
+
+a.navbar-brand, .navbar-nav>li>a {
+	color: black;
+}
+
+
+.navbar-brand:hover, .navbar-nav>li>a:hover {
+	background-color: transparent;
+}
+
+#profNav {
+	margin-right: 2%;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #333333;
+}
+
+
+#navLinks {
+	text-align: center;
+}
+
+#backButton, #guidePage, #changePassword, #logOutButton, #logOut {
+	color: #dd163b;;
+}
+
+/* Profile */
+
+#userSection {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#profileContainer {
+	background-color: #dd163b;;
+	width: 100%;
+	height: 65vh;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30%;
+}
+#profileImageContainer {
+	width: 100%;
+	margin-top: -20%;
+}
+#profileImage {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#profileImage > img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+#userInfoContainer {
+	margin-top: 5%;
+	color: #fff;
+}
+#userInfoContainer > p {
+	margin-bottom: 0;
+}
+#usernameContainer {
+	font-size: 24px;
+	text-align: center;
+}
+#emailContainer {
+	font-size: 20px;
+	text-align: center;
+}
+#joinDateContainer {
+	font-style: 18px;
+	text-align: center;
+}
+
+/************************************/
+
+@media screen and (min-device-width: 568px) {
+#userSection {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#profileContainer {
+	background-color: #dd163b;
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+#profileImageContainer{
+	width: 100%;
+	margin-top: -7%;
+}
+#profileImage{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#profileImage > img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+
+@media screen and (min-device-width: 768px){
+#userSection{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#profileContainer{
+	background-color: #dd163b;
+	width: 100%;
+	min-height: 45vh;
+	height: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
+#profileImageContainer{
+	width: 100%;
+	margin-top: -10%;
+}
+#profileImage{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#profileImage > img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}

@@ -13,14 +13,32 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "connect-flash-plus": "^0.2.1",
+    "ejs": "^2.5.7",
     "express": "^4.15.5",
     "faker": "^4.1.0",
-    "morgan": "^1.8.2"
+    "jsonwebtoken": "^8.0.1",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.5",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.15.6",
     "mocha": "^3.5.3",
     "mongoose": "^4.11.13"
   }

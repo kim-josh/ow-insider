@@ -1,0 +1,152 @@
+.nk-footer {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.6) !important;
+}
+
+.nk-li {
+    right: 60px;
+}
+
+.heroes, .maps {
+    font-size: 0;
+    text-align: center;
+}
+
+.hero {
+    display: inline-block;
+    width: 85px;
+    height: 75px;
+    margin: 3px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.map {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 3px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.result-container {
+    width: 100%;
+}
+
+.tooltip_templates {
+    display: inline-block;
+
+}
+
+.modal-footer{
+    text-align: center;
+}
+
+#signup-modal-content {
+    display: none;
+}
+
+/** validation */
+
+input.parsley-error{    
+    border-color:#843534;
+    box-shadow: none;
+}
+input.parsley-error:focus{    
+    border-color:#843534;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483
+}
+
+.parsley-errors-list.filled {
+    opacity: 1;
+    color: #a94442;
+    display: none;
+}
+
+.parsley-messages {
+    display: none;
+}
+.parsley-messages.filled {
+    display: block;
+}
+/* aggregated parsley error message display... */
+
+div.validation-errors-container {
+    display: none;
+}
+div.validation-errors-container.filled {
+    display: block;
+}
+div.validation-errors-container ul.validation-errors-list {
+    margin: 0;
+    padding: 0;
+}
+div.validation-errors-container ul.validation-errors-list li {
+    color: rgb(169, 68, 66);
+    list-style: outside none disc;
+    margin-left: 16px;
+    padding-left: 1em;
+    text-indent: -0.7em;
+}
+div.validation-errors-container ul.validation-errors-list li a {
+    color: inherit;
+}
+
+.tooltipster-borderless {
+    box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+    min-width: 400px;
+    max-width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+
+h4.h-overview {
+    margin-bottom: 0px;
+}
+
+p.overview {
+    margin-top: 5px;
+}
+
+a:hover.hero {
+    background-color: #dd163b;
+}
+
+img {
+    image-rendering: auto;
+}
+
+.text-main-1.upper {
+    text-transform: uppercase;
+}
+
+input.error{
+    border: 1px solid red;
+}
+
+input.error:focus{
+    border:1px solid red;
+    box-shadow: 0 0 5px red;
+}
+
+input.valid{
+    border: 1px solid green;
+}
+
+input.valid:focus{
+    border:1px solid green;
+    box-shadow: 0 0 5px green;
+}
+
+#labelEmail, #labelUsername, #labelPassword, #labelConfirmPassword {
+    display: none;
+}

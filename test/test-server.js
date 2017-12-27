@@ -12,7 +12,6 @@ describe('index page', function() {
       .get('/')
       .then(function(res) {
         res.should.have.status(200);
-        res.should.be.html;
       });
   });
 });
