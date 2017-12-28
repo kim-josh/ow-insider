@@ -146,7 +146,7 @@ function formatError(){
 					errorCount++;
 			}
 		});
-		if(errorCount == 0 && filledCount === 5){
+		if(errorCount == 0 && filledCount === 4){
 			$('#signupButton').prop('disabled', false);
 		} 
 }
@@ -307,33 +307,3 @@ $(() => {
     validateForm();
     displayError();
 });
-
-/* Will render hero page in the future 
-function renderHeroPage(data, textStatus, jqXHR) {
-    return `
-    <div class="result-container">
-        <h3 class="render-heading">${data.name}</h3>
-        <p class=render-text">Role: ${data.role}</p>
-        <div class="nk-gap"></div>
-        <p class=render-text">Real Name: ${data.realName}</p>
-        <p class=render-text">Age: ${data.age}</p>
-        <p class=render-text">Occupation: ${data.occupation}</p>
-        <p class=render-text">Base of Operations: ${data.baseOfOperations}</p>
-        <p class=render-text">Affiliation: ${data.affiliation}</p>
-    </div>
-    `;   
-}
-*/
-
-/* Will render map page in the future
-function renderMapPage(data, textStatus, jqXHR) {
-    return `
-    <div class="result-container">
-        <h3 class="render-heading">${data.name}</h3>
-        <p class=render-text">Mode: ${data.mode}</p>
-        <p class=render-text">Location: ${data.location}</p>
-        <p class=render-text">Terrain: ${data.terrain}</p>
-    </div>
-    `;
-}
-*/

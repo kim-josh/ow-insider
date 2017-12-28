@@ -205,7 +205,7 @@ function authorize(req, res, next) {
   if (req.user !== undefined) {
     next()
   } else {
-    res.status(403).send('Forbidden Access');
+    res.status(403).send('Forbidden');
   }
 }
 

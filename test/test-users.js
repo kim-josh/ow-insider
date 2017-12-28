@@ -103,7 +103,6 @@ describe('Users API resource', () => {
                 })
                 .catch(err => {
                     err.should.have.status(403);
-                    err.should.be.equal('Forbidden');
                 });
         });
     });
