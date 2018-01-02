@@ -1,5 +1,5 @@
 # Overwatch Insider 
-[Live Version](https://kim-josh.github.io/ow-insider/)
+[Live Version](https://salty-river-72151.herokuapp.com/)
 
 ### Description
 Overwatch Insider is a competitive gaming website that provides the latest strategies and guides for one of the hottest games out today, Overwatch. Interested in a character's background information? Simply hover over the characters to learn about their origin. 
